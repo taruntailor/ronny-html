@@ -1,0 +1,75 @@
+* {
+  margin: 1px;
+  padding: 0px;
+}
+.nm1 img {
+  border: 5px solid rgb(252, 247, 247);
+}
+.nm1 {
+  height: 400px;
+  width: 1296px;
+  padding: 25px;
+  gap: 100px;
+  display: flex;
+  background-color: rgb(211, 180, 122);
+}
+.nm1 .-text1 h1 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nm1 .-text1 h2 {
+  font-size: 50px;
+  text-align: center;
+  /* top: 10pxx; */
+  text-decoration-line: underline;
+  text-decoration-color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nm1 .-text1 form {
+  border: 4px double white;
+  height: 200px;
+}
+
+.nm1 .-text1 form label {
+  color: rgb(29, 28, 28);
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: inherit; */
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 300px;
+  right: 217px;
+}
+.btn button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(39, 41, 41);
+  border: none;
+  color: white;
+}
+.nm1 .-text1 .btn button:hover {
+  color: blue;
+  background-color: rgb(211, 180, 122);
+  border: 2px solid black;
+}
+.image img {
+  height: 500px;
+  width: 1343px;
+  padding: inherit;
+}
+.image .i-text h2 {
+  display: flex;
+  color: rgb(255, 250, 250);
+  font-size: 20px;
+  position: absolute;
+  top: 85%;
+  right: 85%;
+  font-family: Britannic Bold;
+}

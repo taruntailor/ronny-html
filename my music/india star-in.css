@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  color: rgb(244, 252, 248);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgb(250, 247, 247);
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(43, 32, 48);
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+/* ==============imageset============= */
+
+.main {
+  height: 500px;
+  width: auto;
+  /* border: 2px solid rgb(248, 115, 115); */
+
+  position: relative;
+}
+img {
+  height: 500px;
+  width: 99.9%;
+}
+.text {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  /* border: 2px solid white; */
+  text-decoration: underline;
+  text-decoration-color: white;
+  position: absolute;
+  /* top: 0; */
+  color: rgb(181, 235, 119);
+  background-color: rgba(156, 121, 165, 0.638);
+  height: 0%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: 1s all ease;
+  overflow: hidden;
+}
+
+.main:hover .text {
+  height: 100%;
+}
+.rock {
+  margin: 5px auto;
+  display: flex;
+  border-radius: 50%;
+}
+.rock ul {
+  border: 1px solid #888080;
+  border-radius: 4px;
+  color: white;
+  height: 500px;
+  width: 1400px;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  font-size: 30px;
+  display: flex;
+  gap: 8px;
+}
+.rock ul .bv1 {
+  border: 2px solid;
+}
+
+.rock ul li:hover {
+  transform: scale(0.5);
+  transition: 2s all ease;
+}
+
+/* ==================darsan======================= */
+.darsan {
+  display: flex;
+  gap: 30px;
+  background-color: black;
+}
+
+.darsan img {
+  margin: 2px;
+  width: 500px;
+  height: 400px;
+  border-radius: 50px;
+  right: 50%;
+  overflow: hidden;
+}
+.darsan img:hover.img1 {
+  transform: scale(0.5);
+  transition: 2s all ease;
+}
+
+.darsan .tex-1 h3 {
+  color: rgb(228, 223, 215);
+  display: flex;
+  padding: 50px;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: solid red;
+  text-align: center;
+}
+.darsan .tex-1 h1 {
+  color: aliceblue;
+  padding: 0px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.darsan .tex-1 p {
+  color: red;
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+}
+.darsan .tex-1 i {
+  color: white;
+}
+button {
+  color: red;
+  background-color: black;
+  margin: 1px;
+  height: 80px;
+  width: 1348px;
+  margin: 10px auto;
+  border: 4px double red;
+}
+button a span {
+  height: 30px;
+  color: #a78d8d;
+  font-size: 40px;
+}
+button:hover {
+  background-color: red;
+}
+button:hover span {
+  color: rgb(16, 16, 17);
+}
