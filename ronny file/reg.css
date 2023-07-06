@@ -1,0 +1,62 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body {
+     background-color: rgb(46, 26, 224);
+ }
+ h1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .regpage{
+    padding: 40px;
+ }
+ form{
+    background-color:aliceblue;
+    height: 650px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+ }
+ .row{
+    display: flex;
+ }
+ .clo-1{
+    /* text-align: right; */
+    /* padding: 10px; */
+    flex: 1;
+    justify-items: flex-start
+    
+ }
+ .clo-2{
+    flex:2;
+    text-align: center;
+    padding: 7px;
+ }
+ .clo-2 input[type="radio"]{
+    height: 15px;
+    width:15px;
+
+
+ }
+ 
+ input ,select {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    color: rgb(199, 197, 197);
+ }
+
+ button{
+    background-color: rgb(31, 31, 172);
+    color: white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+ }
